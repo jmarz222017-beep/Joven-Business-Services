@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JMCT Business Services</title>
+
+<style>
+:root {
+    --navy: #001f3f;
+    --gold: #c5a059;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,31,63,0.85), rgba(0,31,63,0.85)),
+    url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1500');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.gold-text {
+    color: var(--gold);
+    font-style: italic;
+}
+
+.owner-name {
+    color: var(--gold);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.cta-btn {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: var(--gold);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background: white;
+}
+
+/* SERVICES */
+.services-container {
+    padding: 60px 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    background: #f9f9f9;
+}
+
+.service-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    color: var(--navy);
+}
+
+/* WHY US */
+.why-us {
+    background: var(--navy);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.why-us h2 {
+    color: var(--gold);
+}
+
+.why-us p {
+    margin: 10px 0;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 30px;
+    background: #eee;
+}
+
+.footer span {
+    color: var(--gold);
+    font-weight: bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Business <span class="gold-text">Services</span></h1>
+    <p class="owner-name">Joven Mar Tapayan</p>
+    <p>Business Process Specialist</p>
+
+    <p>Your Trusted Partner in Business Registration and Government Processing</p>
+
+    <button class="cta-btn" onclick="window.location.href='mailto:jmarz222017@gmail.com'">
+        Contact Me
+    </button>
+</section>
+
+<!-- SERVICES -->
+<section class="services-container">
+    <div class="service-card">
+        <h3>Business Permit Registration</h3>
+        <p>Secure your local permits quickly and legally.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>SEC Registration</h3>
+        <p>Full assistance in company registration.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>BIR Registration</h3>
+        <p>Ensure complete tax compliance.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Real Estate Processing</h3>
+        <p>Documentation and title transfers made easy.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Other Services</h3>
+        <p>Additional government compliance support.</p>
+    </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-us">
+    <h2>Why Choose Us?</h2>
+    <p>✔ Accurate & Organized</p>
+    <p>✔ Time-Saving & Hassle-Free</p>
+    <p>✔ Expert Knowledge of Procedures</p>
+    <p>✔ Reliable & Client-Focused</p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+    <h2>Contact Information</h2>
+    <p>📱 09178772480</p>
+    <p>📧 <a href="mailto:jmarz222017@gmail.com">jmarz222017@gmail.com</a></p>
+</section>
+
+<!-- FOOTER -->
+<section class="footer">
+    <h3>We make it easy. <span>YOU MAKE IT HAPPEN.</span></h3>
+</section>
+
+</body>
+</html>
